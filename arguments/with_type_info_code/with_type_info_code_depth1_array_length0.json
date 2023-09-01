@@ -1,0 +1,40 @@
+{
+    "simpleStruct": {
+    },
+    "complexStruct": {
+    },
+    "parameterizedStruct": {
+    },
+    "recursiveStruct": {
+    },
+    "recursiveUnion": {
+    },
+    "recursiveChoice": {
+    },
+    "selector": "_TWO",
+    "simpleChoice": {
+    },
+    "templatedStruct": {
+    },
+    "templatedParameterizedStruct": {
+    },
+    "externData": {
+        "buffer": [
+            202,
+            254
+        ],
+        "bitSize": 15
+    },
+    "externArray": [
+    ],
+    "bytesData": {
+        "buffer": [
+            171,
+            205
+        ]
+    },
+    "bytesArray": [
+    ],
+    "implicitArray": [
+    ]
+}
