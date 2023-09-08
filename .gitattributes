@@ -1,0 +1,8 @@
+# BLOBs are always binary
+*.blob binary
+
+# GIF is binary
+*.gif binary
+
+# JSONs are always text
+*.json text
