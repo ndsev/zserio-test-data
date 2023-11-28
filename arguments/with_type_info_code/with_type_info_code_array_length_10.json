@@ -92,7 +92,7 @@
             19
         ],
         "optionalEnum": "ItemThree",
-        "optionalBitmask": "RED | _Green",
+        "optionalBitmask": "RED | _Green | ColorBlue",
         "optionalExtern": {
             "buffer": [
                 203,
