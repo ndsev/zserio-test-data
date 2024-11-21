@@ -7,6 +7,7 @@ import parameterized_types.dynamic_bitfield_param.*;
 import parameterized_types.extern_param.*;
 import parameterized_types.fixed_and_variable_param.*;
 import parameterized_types.grand_child_param.*;
+import parameterized_types.multiple_params.*;
 import parameterized_types.nested_parameterized_field.*;
 import parameterized_types.packed_array_element_param.*;
 import parameterized_types.param_with_optional.*;
