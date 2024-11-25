@@ -8,5 +8,5 @@ enum uint8 Traffic
     MID
 };
 
-struct AllocatorType // empty just to get allocator_type typedef in the test
+struct Dummy // empty just to get allocator_type typedef in the test
 {};
