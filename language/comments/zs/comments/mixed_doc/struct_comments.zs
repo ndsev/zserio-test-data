@@ -145,4 +145,11 @@ struct DirectionStructure(bool hasExtraValue)
     align(32):
     mixedOffset4:
     optional /*! Mixed comment. !*/ /** Classic documentation comment. */ int32 mixedField4;
+
+    /*! The fifth offset. !*/
+    uint32 mixedOffset5;
+
+    align(32):
+    mixedOffset5:
+    /*! Mixed comment. !*/ /** Classic documentation comment. */ extend int32 mixedField5;
 };

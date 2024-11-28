@@ -125,35 +125,42 @@ struct DirectionStructure(bool hasExtraValue)
     int32           alignedField2;
 
     /** The first offset. */
-    uint32          mixedOffset1;
+    uint32          classicOffset1;
 
-    /** Mixed comment. */
+    /** Classic comment. */
     align(32):
-    mixedOffset1:
-    optional int32  mixedField1;
+    classicOffset1:
+    optional int32  classicField1;
 
     /** The second offset. */
-    uint32          mixedOffset2;
+    uint32          classicOffset2;
 
     align(32):
-    /** Mixed comment. */
-    mixedOffset2:
-    optional int32 mixedField2;
+    /** Classic comment. */
+    classicOffset2:
+    optional int32 classicField2;
 
     /** The third offset. */
-    uint32          mixedOffset3;
+    uint32          classicOffset3;
 
     align(32):
-    mixedOffset3:
-    /** Mixed comment. */
-    optional int32  mixedField3;
+    classicOffset3:
+    /** Classic comment. */
+    optional int32  classicField3;
 
     /** The fourth offset. */
-    uint32 mixedOffset4;
+    uint32 classicOffset4;
 
     align(32):
-    mixedOffset4:
-    optional /** Mixed comment. */ int32 mixedField4;
+    classicOffset4:
+    optional /** Classic comment. */ int32 classicField4;
+
+    /** The fifth offset. */
+    uint32 classicOffset5;
+
+    align(32):
+    classicOffset5:
+    /** Extend comment. */ extend optional int32 classicField5;
 
     /** The function return value of the optional field extraValue if exists. Otherwise, it returns zero. */
     function uint32 getExtraValue()
