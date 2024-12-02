@@ -1,6 +1,7 @@
 package expressions.lengthof_operator;
 
 const string STR_CONSTANT = "€constant";
+const varsize STR_CONSTANT_LENGTH = lengthof(STR_CONSTANT);
 
 struct LengthOfFunctions
 {
@@ -13,7 +14,7 @@ struct LengthOfFunctions
     string          strField : lengthof(strField) > lengthof(STR_CONSTANT);
     bytes           bytesField : getLengthOfBytes() < getLengthOfString();
 
-    string          strArray[];
+    string          strArray[] : lengthof(STR_CONSTANT) == STR_CONSTANT_LENGTH;
     bytes           bytesArray[];
 
     function varsize getLengthOfStrConstant()
