@@ -8,6 +8,7 @@ import expressions.const_type.*;
 import expressions.enumeration_type.*;
 import expressions.field_type.*;
 import expressions.field_type_with_clash.*;
+import expressions.field_type_with_parent_clash.*;
 import expressions.float_type.*;
 import expressions.full_const_type.*;
 import expressions.full_enumeration_type.*;
