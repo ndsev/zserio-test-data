@@ -14,13 +14,14 @@ enum uint32 EnumFromOne
     THREE
 };
 
+// note that when the selector is a template parameter, the T cannot be omitted
 choice TemplatedChoice<T>(T selector) on selector
 {
-    case ONE:
+    case T.ONE:
         uint16 uint16Field;
-    case T.TWO: // check template in case expression
+    case T.TWO:
         uint32 uint32Field;
-    case THREE:
+    case T.THREE:
         string stringField;
 };
 
