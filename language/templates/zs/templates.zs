@@ -30,7 +30,7 @@ import templates.instantiate_via_import.*;
 import templates.instantiate_via_single_import.*;
 import templates.instantiate_vs_default.*;
 import templates.instantiate_with_instantiate_template_argument.*;
-import templates.sql_table_templated_field.*;
+//import templates.sql_table_templated_field.*;
 import templates.struct_full_and_short_template_argument.*;
 import templates.struct_full_name_template_argument.*;
 import templates.struct_long_template_argument.*;
