@@ -14,6 +14,10 @@ import sql_tables.subtyped_enum_field_table.*;
 import sql_tables.subtyped_table.*;
 import sql_tables.without_pk_table.*;
 
+import sql_tables.templated_sql_table.*;
+import sql_tables.templated_sql_table_explicit_param.*;
+import sql_tables.templated_sql_table_param.*;
+
 sql_database TestDb
 {
     BlobFieldWithChildrenInitializationTable blobFieldWithChildrenInitializationTable;
