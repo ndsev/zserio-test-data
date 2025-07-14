@@ -6,6 +6,7 @@ import expressions.cast_uint64_to_uint8.*;
 import expressions.cast_uint8_to_uint64.*;
 import expressions.const_type.*;
 import expressions.enumeration_type.*;
+import expressions.expressions_in_templates.*;
 import expressions.field_type.*;
 import expressions.field_type_with_clash.*;
 import expressions.field_type_with_parent_clash.*;
