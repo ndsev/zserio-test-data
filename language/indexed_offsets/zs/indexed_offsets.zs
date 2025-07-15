@@ -14,6 +14,7 @@ import indexed_offsets.indexed_offset_array_in_recursive_union.*;
 import indexed_offsets.int14_indexed_offset_array.*;
 import indexed_offsets.optional_indexed_offset_array.*;
 import indexed_offsets.optional_nested_indexed_offset_array.*;
+import indexed_offsets.optional_nested_indexed_offset_array_in_template.*;
 import indexed_offsets.packed_auto_indexed_offset_array.*;
 import indexed_offsets.packed_indexed_offset_array_holder.*;
 import indexed_offsets.varint32_indexed_offset_array.*;
