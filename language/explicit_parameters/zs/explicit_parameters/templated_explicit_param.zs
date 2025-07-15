@@ -1,4 +1,4 @@
-package sql_tables.templated_sql_table_explicit_param;
+package explicit_parameters.templated_explicit_param;
 
 struct Parameterized(uint32 param)
 {

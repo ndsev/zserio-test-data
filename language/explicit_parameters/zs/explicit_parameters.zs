@@ -7,6 +7,7 @@ import explicit_parameters.explicit_same_as_field.*;
 import explicit_parameters.explicit_simple_param.*;
 import explicit_parameters.multiple_explicit_params.*;
 import explicit_parameters.multiple_with_same_name.*;
+import explicit_parameters.templated_explicit_param.*;
 
 sql_database ExplicitParametersDb
 {
