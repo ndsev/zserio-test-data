@@ -2,6 +2,7 @@ package parameterized_types;
 
 import parameterized_types.array_element_param.*;
 import parameterized_types.array_element_param_with_optional.*;
+import parameterized_types.array_element_param_with_optional_in_template.*;
 import parameterized_types.bytes_param.*;
 import parameterized_types.dynamic_bitfield_param.*;
 import parameterized_types.extern_param.*;
@@ -13,6 +14,7 @@ import parameterized_types.packed_array_element_param.*;
 import parameterized_types.param_with_optional.*;
 import parameterized_types.parameterized_inner_classes_clashing.*;
 import parameterized_types.parameterized_nested_in_array.*;
+import parameterized_types.parameterized_nested_in_array_in_template.*;
 import parameterized_types.parameterized_param.*;
 import parameterized_types.simple_param.*;
 import parameterized_types.subtyped_bitfield_param.*;
