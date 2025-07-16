@@ -8,3 +8,4 @@ import optional_members.optional_complex_expression.*;
 import optional_members.optional_expression.*;
 import optional_members.optional_expression_with_removed_enum_item.*;
 import optional_members.optional_recursion.*;
+import optional_members.optional_recursion_in_template.*;
