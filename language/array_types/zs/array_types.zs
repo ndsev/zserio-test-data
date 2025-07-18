@@ -23,6 +23,7 @@ import array_types.packed_variable_array_struct.*;
 import array_types.packed_variable_array_uint8.*;
 import array_types.packing_interface_optimization.*;
 import array_types.templated_auto_array.*;
+import array_types.templated_packed_array_of_templates.*;
 import array_types.templated_packed_auto_array.*;
 import array_types.templated_packed_variable_array.*;
 import array_types.templated_variable_array.*;
