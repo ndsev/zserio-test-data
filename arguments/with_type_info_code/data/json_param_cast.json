@@ -1,0 +1,27 @@
+{
+    "number": 10,
+    "int8Param": {
+        "data": 1
+    },
+    "int16Param": {
+        "data": 2
+    },
+    "int32Param": {
+        "data": 3
+    },
+    "int64Param": {
+        "data": 4
+    },
+    "float16Param": {
+        "data": 5
+    },
+    "float32Param": {
+        "data": 6
+    },
+    "float64Param": {
+        "data": 7
+    },
+    "param": {
+        "data": 8
+    }
+}
