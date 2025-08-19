@@ -11,9 +11,9 @@ struct Holder
     Int16Param(030) int16Param;
     Int32Param(0x30) int32Param;
     Int64Param(111B) int64Param;
-    Float16Param(0.2) float16Param;
-    Float32Param(0.2) float32Param;
-    Float64Param(0.1f) float64Param;
+    Float16Param(0.2f) float16Param;
+    Float32Param(0.2f) float32Param;
+    Float64Param(0.1) float64Param;
     Int32Param(number) param;
 };
 
@@ -39,15 +39,15 @@ struct Int64Param(int64 param)
 
 struct Float16Param(float16 param)
 {
-    int32 data if param > 0.0;
+    int32 data if param > 0.0f;
 };
 
 struct Float32Param(float32 param)
 {
-    int32 data if param > 0.0;
+    int32 data if param > 0.0f;
 };
 
 struct Float64Param(float64 param)
 {
-    int32 data if param > 0.f;
+    int32 data if param > 0.0;
 };
