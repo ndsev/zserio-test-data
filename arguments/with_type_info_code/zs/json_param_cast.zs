@@ -1,6 +1,6 @@
 package json_param_cast;
 
-// Parameters to XXXParam struct are supplied as literals yielding different 
+// Parameters to XXXParam struct are supplied as literals yielding different
 // but compatible type. DebugString should type cast to target parameter type
 // as needed when calling target type ctor.
 
@@ -11,9 +11,9 @@ struct Holder
     Int16Param(030) int16Param;
     Int32Param(0x30) int32Param;
     Int64Param(111B) int64Param;
-    Float16Param(0.2f) float16Param;
-    Float32Param(0.2f) float32Param;
-    Float64Param(0.1) float64Param;
+    Float16Param(0.2) float16Param;
+    Float32Param(0.2) float32Param;
+    Float64Param(0.1f) float64Param;
     Int32Param(number) param;
 };
 
