@@ -1,5 +1,3 @@
-package without_writer_code;
-
 enum int8 ItemType
 {
     SIMPLE,
@@ -65,4 +63,15 @@ sql_database WorldDb
 {
     GeoMapTable europe;
     GeoMapTable america;
+};
+
+struct Type
+{
+    uint32 value;
+};
+
+struct Value(Type type)
+{
+    bool   isValid;
+    uint32 value if type.value > 0;
 };
