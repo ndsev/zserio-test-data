@@ -1,3 +1,5 @@
+package without_writer_code;
+
 enum int8 ItemType
 {
     SIMPLE,
