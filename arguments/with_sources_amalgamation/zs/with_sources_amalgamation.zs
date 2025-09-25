@@ -40,8 +40,18 @@ sql_table GeoMapTable
     Empty   empty;
 };
 
+sql_table SecondTable
+{
+    int32 id sql "PRIMARY KEY NOT NULL";
+};
+
 sql_database WorldDb
 {
     GeoMapTable europe;
     GeoMapTable america;
+};
+
+sql_database SecondDb
+{
+    SecondTable table;
 };
