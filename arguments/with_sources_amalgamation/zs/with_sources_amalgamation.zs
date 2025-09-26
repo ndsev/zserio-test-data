@@ -40,6 +40,7 @@ sql_table GeoMapTable
     Empty   empty;
 };
 
+// second table to check generated code doesn't clash
 sql_table SecondTable
 {
     int32 id sql "PRIMARY KEY NOT NULL";
@@ -51,6 +52,7 @@ sql_database WorldDb
     GeoMapTable america;
 };
 
+// second database to check generated code doesn't clash
 sql_database SecondDb
 {
     SecondTable table;
