@@ -3,7 +3,7 @@ package expressions.expressions_in_templates;
 struct ArrayExpressions<T>
 {
     T array[2];
-    bool isZeroArrayValid if array[0] == 0 && array[1] == 0; // todo: add default value = true when #88 is fixed
+    bool isZeroArrayValid if array[0] == 0 && array[1] == 0;
 };
 
 bitmask uint8 ColorB
