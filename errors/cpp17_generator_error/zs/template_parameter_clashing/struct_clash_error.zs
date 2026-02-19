@@ -1,6 +1,6 @@
 package struct_clash_error;
 
-struct ArrayStruct<Uint8ArrayType>
+struct ParamType<PARAM>
 {
-    uint8   uint8Array[];
+    PARAM value;
 };

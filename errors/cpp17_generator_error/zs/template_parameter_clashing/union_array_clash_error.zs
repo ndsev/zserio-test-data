@@ -1,4 +1,4 @@
-package union_clash_error;
+package union_array_clash_error;
 
 union ArrayUnion<Uint8ArrayType>
 {

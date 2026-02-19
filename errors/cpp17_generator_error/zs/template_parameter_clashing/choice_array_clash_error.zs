@@ -1,4 +1,4 @@
-package choice_clash_error;
+package choice_array_clash_error;
 
 choice ArrayChoice<Uint8ArrayType>(uint8 param) on param
 {
