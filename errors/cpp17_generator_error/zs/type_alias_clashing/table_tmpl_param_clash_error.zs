@@ -1,4 +1,4 @@
-package table_tmp_param_clash_error;
+package table_tmpl_param_clash_error;
 
 sql_table TableClash<PARAM, Param>
 {

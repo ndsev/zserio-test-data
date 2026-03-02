@@ -1,4 +1,4 @@
-package choice_tmp_param_field_clash_error;
+package choice_tmpl_param_field_clash_error;
 
 choice Clash1<Uint8ArrayType>(uint8 param) on param
 {

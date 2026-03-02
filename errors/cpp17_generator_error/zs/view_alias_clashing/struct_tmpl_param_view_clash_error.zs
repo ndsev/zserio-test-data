@@ -1,4 +1,4 @@
-package struct_tmp_param_view_clash_error;
+package struct_tmpl_param_view_clash_error;
 
 struct ViewClash<View>
 {

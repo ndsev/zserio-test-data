@@ -1,4 +1,4 @@
-package union_tmp_param_field_clash_error;
+package union_tmpl_param_field_clash_error;
 
 union Clash5<Uint8ArrayType>
 {

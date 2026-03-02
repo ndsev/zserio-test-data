@@ -1,4 +1,4 @@
-package struct_name_tmp_param_clash_error;
+package struct_name_tmpl_param_clash_error;
 
 struct Param2Type<PARAM2>
 {

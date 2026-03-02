@@ -1,4 +1,4 @@
-package struct_tmp_param_field_clash_error;
+package struct_tmpl_param_field_clash_error;
 
 struct Clash4<Uint8ArrayType>
 {
