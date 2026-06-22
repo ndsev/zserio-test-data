@@ -6,7 +6,8 @@ struct Header<L, O>
     O offsets[length];
 };
 
-struct OptionalNestedIndexedOffsetArray<T>
+//OptionalNestedIndexedOffsetArray
+struct OptionalNestedIndexedOA<T>
 {
     T header;
 
@@ -18,5 +19,5 @@ header.offsets[@index]:
 
 struct OptionalNestedIndexedOffsetArrayInTemplate
 {
-    OptionalNestedIndexedOffsetArray<Header<uint16, uint32>> field;
+    OptionalNestedIndexedOA<Header<uint16, uint32>> field;
 };

@@ -5,7 +5,7 @@ struct Templated<T>(varsize len)
     packed T array[len];
 };
 
-struct TemplatedParam<T, P, S>(P param, S len)
+struct TmplParam<T, P, S>(P param, S len)
 {
     packed T(param.array[@index]) array[len];
 };
@@ -51,7 +51,7 @@ struct Arrays<T>(T len)
     Templated<TestEnum>(len) enumArray;
     Templated<TestBitmask>(len) bitmaskArray;
     Templated<TestStruct<string>>(len) structArray;
-    TemplatedParam<TestChoice<TestEnum>, Templated<TestEnum>, varsize>(enumArray, len) choiceArray;
+    TmplParam<TestChoice<TestEnum>, Templated<TestEnum>, varsize>(enumArray, len) choiceArray;
     Templated<TestUnion<TestBitmask>>(len) unionArray;
 };
 
