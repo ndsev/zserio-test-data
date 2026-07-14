@@ -2,7 +2,7 @@ package expressions.division_operator;
 
 struct DivisionFunction
 {
-    int16 value;
+    uint32 value;
     uint8 bitCount;
 
     function uint32 get1U()
@@ -21,7 +21,7 @@ struct DivisionFunction
     {
         return (value + 0.0) / ((get1U() << bitCount) - 1.0);
     }
-    function int32 divideIntByInt()
+    function uint32 divideIntByInt()
     {
         return value / ((get1U() << bitCount) - 1);
     }
