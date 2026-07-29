@@ -5,6 +5,7 @@ import optional_members.auto_optional_bool.*;
 import optional_members.optional_array.*;
 import optional_members.optional_array_recursion.*;
 import optional_members.optional_complex_expression.*;
+import optional_members.optional_enumeration.*;
 import optional_members.optional_expression.*;
 import optional_members.optional_expression_with_removed_enum_item.*;
 import optional_members.optional_recursion.*;
