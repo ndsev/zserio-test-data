@@ -5,6 +5,7 @@ import parameterized_types.array_element_param_with_optional.*;
 import parameterized_types.array_element_param_with_optional_in_template.*;
 import parameterized_types.bytes_param.*;
 import parameterized_types.dynamic_bitfield_param.*;
+import parameterized_types.enumeration_param.*;
 import parameterized_types.extern_param.*;
 import parameterized_types.fixed_and_variable_param.*;
 import parameterized_types.grand_child_param.*;
