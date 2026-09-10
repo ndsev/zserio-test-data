@@ -1,5 +1,6 @@
 package sql_tables;
 
+import sql_tables.bad_name_table.*;
 import sql_tables.blob_field_with_children_initialization_table.*;
 import sql_tables.blob_param_table.*;
 import sql_tables.blob_offsets_param_table.*;
@@ -32,4 +33,5 @@ sql_database TestDb
     SubtypedEnumFieldTable                   subtypedEnumFieldTable;
     SubtypedTable                            subtypedTable;
     WithoutPkTable                           withoutPkTable;
+    BadNameTable                             select;
 };
