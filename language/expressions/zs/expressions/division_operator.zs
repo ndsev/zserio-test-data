@@ -25,4 +25,17 @@ struct DivisionFunction
     {
         return value / ((get1U() << bitCount) - 1);
     }
+
+    function int32 positiveByNegativeRounding()
+    {
+        return 3 / (-2);
+    }
+    function int32 negativeByPositiveRounding()
+    {
+        return (-3) / 2;
+    }
+    function int32 negativeByNegativeRounding()
+    {
+        return (-3) / (-2);
+    }
 };
