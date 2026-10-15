@@ -67,6 +67,10 @@ const string        JOINED_STRING_CONSTANT = "This is: " + STRING_CONSTANT;
 const string        UNICODE_ESC_STRING_CONSTANT = "Test string with unicode escape \u0019";
 const string        HEX_ESC_STRING_CONSTANT = "Test string with hexadecimal escape \x19";
 const string        OCTAL_ESC_STRING_CONSTANT = "Test string with octal escape \031";
+const string        OCTAL_ESC_THREE_DIGITS_STRING_CONSTANT = "Test string with octal escape \0156";
+const string        OCTAL_ESC_MAX_STRING_CONSTANT = "\0377";
+const string        OCTAL_ESC_JOINED_STRING_CONSTANT = "\01" + "56";
+const string        OCTAL_ESC_JOINED_WITH_CONSTANT_STRING_CONSTANT = STRING_CONSTANT + "\07" + "7";
 const string        StringPascalCaseConstant = "Different naming convention";
 
 // constant defined by another constant
